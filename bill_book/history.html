@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+    <title>History</title>
+</head>
+
+<body class="bg-theme">
+
+
+    <div class="header">
+        <div class="header-container">
+            <div class="logo">
+                <div class="img-logo "><img src="images/logo.png " alt="image "></div>
+            </div>
+            <div class="dummy mt-2">
+
+
+                <div class="not">
+                    <button class="notification notfi-image1"></button>
+                </div>
+                <div class="men">
+                    <button class="menu menu-image1" onclick="openNav()"></button>
+                </div>
+            </div>
+
+        </div>
+
+
+        <section class="section-home_screen border-secondary">
+
+
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#"><button class=" button-sidenav btn btn-primary text-dark " type="submit">Profile</button></a>
+                <a href="file:///C:/Users/ASUS/Desktop/Folders/mca2019%20c%20programing/sem6_internship/bill_book/payment.html"><button class=" button-sidenav btn btn-primary text-dark " type="submit">Payment Info</button></a>
+                <a href="#"><button class=" button-sidenav btn btn-primary text-dark " type="submit">Terms and Conditions</button></a>
+                <a href="#"><button class=" button-sidenav btn btn-primary text-dark " type="submit">Contact Us</button></a>
+                <a href="file:///C:/Users/ASUS/Desktop/Folders/mca2019%20c%20programing/sem6_internship/bill_book/login.html" data-toggle="modal" data-target="#logoutModal"><button class=" button-sidenav btn btn-primary text-dark " type="submit">Logout</button></a>
+                <a href="#"><button class=" button-sidenav btn btn-primary text-dark " type="submit">------</button></a>
+                <a href="#"><button class=" button-sidenav btn btn-primary text-dark " type="submit">------</button></a>
+                <a href="#"><button class=" button-sidenav btn btn-primary text-dark " type="submit">-------</button></a>
+            </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 history">
+
+                <div class="modal" id="logoutModal" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog modal-sm">
+                        <div class="modal-content">
+
+                            <div class="modal-body text-center">
+                                <p><i class="fa fa-question-circle"></i>Log out of<br /> Bill Book?</p>
+                                <div class="actionsBtns">
+                                    <form action="/logout" method="post">
+                                        <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
+                                        <input type="submit" class="btn btn-default btn-primary text-danger pop-up-btn" data-dismiss="modal" value="Logout" />
+                                        <button class="btn btn-default text-dark pop-up-btn" data-dismiss="modal">Cancel</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h5>History</h5>
+                <div class="elements-home-scree  pl-0">
+                    <div class="date-amt-status">
+                        <span class="firstLabel">Date</span>
+                        <span class="secondLabel">Amount</span>
+                        <span class="thirdLabel">Status</span>
+
+                       
+
+
+                    </div>
+
+
+                </div>
+                <div class="elements-home-scree  pl-0">
+                    <div class="date-amt-status">
+                        <span class="firstLabel"></span>
+                        <span class="secondLabel"></span>
+                        <span class="thirdLabel"></span>
+
+                       
+
+
+                    </div>
+
+
+                </div>
+
+                <div class="elements-home-scree  pl-0">
+                    <div class="date-amt-status">
+                        <span class="firstLabel"></span>
+                        <span class="secondLabel"></span>
+                        <span class="thirdLabel"></span>
+
+                       
+
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="elements-home-scree  pl-0">
+                    <div class="date-amt-status">
+                        <span class="firstLabel"></span>
+                        <span class="secondLabel"></span>
+                        <span class="thirdLabel"></span>
+
+                       
+
+
+                    </div>
+
+
+                </div>
+
+
+
+
+                <div class="elements-home-scree  pl-0">
+                    <div class="date-amt-status">
+                        <span class="firstLabel"></span>
+                        <span class="secondLabel"></span>
+                        <span class="thirdLabel"></span>
+
+                      
+
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="elements-home-scree  pl-0">
+                    <div class="date-amt-status">
+                        <span class="firstLabel"></span>
+                        <span class="secondLabel"></span>
+                        <span class="thirdLabel"></span>
+
+                       
+
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="elements-home-scree  pl-0">
+                    <div class="date">
+                        <span class="firstLabel"></span>
+                        <span class="secondLabel"></span>
+                        <span class="thirdLabel"></span>
+
+                        <div class="line-div">
+                            <div class="line">
+                            </div>
+                            <div class="text_portion ">
+                                2020
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+
+
+
+    <div class="footer_main ">
+        <div class="footer-container ">
+            <ul>
+                <li>
+                    <a>
+                        <div class="img-menu "><img src="images/money.png " alt="image "></div>
+                        <span>Payments</span></a>
+                </li>
+
+                <li>
+                    <a>
+                        <div class="img-menu "><img src="images/recivable.png " alt="image "></div>
+                        <span>Recivable</span></a>
+                </li>
+                <li>
+                    <a>
+                        <div class="img-menu "><img src="images/accounts.png " alt="image "></div>
+                        <span>Accounts</span></a>
+                </li>
+
+
+
+            </ul>
+        </div>
+    </div>
+
+
+    </div>
+
+    </div>
+
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "100%";
+
+            document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+
+            document.body.style.backgroundColor = "#ede5e7";
+        }
+    </script>
+
+</body>
+
+</html>

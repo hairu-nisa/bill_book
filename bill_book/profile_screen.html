@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
+
+    <title>Profile Screen</title>
+</head>
+<script type='text/javascript'>
+    $(function() {
+        var overlay = $('<div id="overlay"></div>');
+        overlay.show();
+        overlay.appendTo(document.body);
+        $('.popup').show();
+        $('.close').click(function() {
+            $('.popup').hide();
+            overlay.appendTo(document.body).remove();
+            return false;
+        });
+
+
+
+
+        $('.x').click(function() {
+            $('.popup').hide();
+            overlay.appendTo(document.body).remove();
+            return false;
+        });
+    });
+	
+	
+	
+	function myHome() {
+  location.replace("file:///C:/Users/ASUS/Desktop/Folders/mca2019%20c%20programing/sem6_internship/bill_book/home_screen.html")
+}
+	
+</script>
+<div class='popup'>
+    <div class='cnt223'>
+        <h1 class="text-center">
+            <img src="images/bulb.png " alt="image ">
+        </h1>
+        <p>
+            Customers might be Knowing your store by a different name or pet name.Please mention that name here.
+            <br/>
+            <br/>
+            <a href='' class='close'>Close</a>
+        </p>
+    </div>
+</div>
+
+<body class="bg-theme">
+
+
+
+    <div class="header">
+        <div class="header-container">
+            <div class="logo">
+                <div class="img-logo "><img src="images/logo.png " alt="image ">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <section class="section-home_screen border-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 ">
+				<div class="profile-container">
+					<div class="user-detail">
+					
+					 <div class="image-home_screen">
+                        <img src="images/profile.png" alt="image" width="159">
+                    </div>
+
+                    <div class="upload-btn-wrapper ">
+                        <button class="btn1 file-image">Update profile picture</button>
+                        <input type="file" name="myfile" />
+                    </div>
+					</div>	
+			
+				
+                   <div class="profile-details">
+                <div class="profile-main">
+                    <div class="elements-home-scree">
+                        
+                            <label class="label-pro" >State</label>
+                        <select class="form-control input1">
+                            <option>State</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                          </select>
+                    </div>
+                    <div class="elements-home-scree">
+                        
+                            <label class="label-pro" >District</label>
+                      
+                        <select class="form-control input1">
+                                <option>District</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                              </select>
+                            </div>
+                    
+                    <div class="elements-home-scree">
+                        
+                            <label class="label-pro">Town</label>
+                       
+                        <input type="text" class="form-control input1" placeholder="Town" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                    </div>
+
+                    <div class="elements-home-scree submit-home">
+                        <button onclick="myHome()" class=" button-login btn btn-primary mt-4" type="submit">Submit</button>
+                    </div>
+                </div>
+             </div>
+			 </div>
+			</div>
+            </div>
+
+
+
+            </div>
+
+
+        </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
