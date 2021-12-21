@@ -58,7 +58,7 @@
 
 
     <div class="container">
-        <div class="row">
+        <div class="row content-ht">
             <div class="col-sm-12 history">
 
                 <div class="modal" id="logoutModal" tabindex="-1" role="dialog" aria-hidden="true">
@@ -79,6 +79,7 @@
                     </div>
                 </div>
                 <h5>History</h5>
+				<label class="label-pro" >Name</label>
                 <div class="elements-home-scree  pl-0">
                     <div class="date-amt-status">
                         <span class="firstLabel">Date</span>
@@ -207,7 +208,7 @@
                 <li>
                     <a>
                         <div class="img-menu "><img src="images/money.png " alt="image "></div>
-                        <span>Payments</span></a>
+                        <span onclick="myPayment()">Payments</span></a>
                 </li>
 
                 <li>
@@ -218,7 +219,7 @@
                 <li>
                     <a>
                         <div class="img-menu "><img src="images/accounts.png " alt="image "></div>
-                        <span>Accounts</span></a>
+                         <span onclick="myAccounts()">Accounts</span></a>
                 </li>
 
 
@@ -245,6 +246,16 @@
 
             document.body.style.backgroundColor = "#ede5e7";
         }
+		
+		
+		
+			function myPayment() {
+  location.replace("file:///C:/Users/ASUS/Desktop/Folders/mca2019%20c%20programing/sem6_internship/bill_book/payment.html")
+}
+
+function myAccounts() {
+  location.replace("file:///C:/Users/ASUS/Desktop/Folders/mca2019%20c%20programing/sem6_internship/bill_book/account_screen.html")
+}
     </script>
 
 </body>

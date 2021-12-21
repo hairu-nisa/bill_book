@@ -314,12 +314,19 @@
     }
     
     .firstLabel {
-        margin-right: 205px;
+		float:left;
+        margin-right: 454px;
     }
     
     .secondLabel {
         margin-right: 218px;
     }
+	.thirdLabel{
+		float:right;
+	}
+	.content-ht{
+		height:430px;
+	}
     
     .division-screen {
         border-bottom: 1px solid black;
@@ -371,7 +378,7 @@
         position: absolute;
         z-index: 1;
         top: -20px;
-        left: 149px;
+        left: 484px;
         text-align: center;
         font-size: 18px;
     }
@@ -384,6 +391,7 @@
     .firstLabel1 {
         font-size: 19px;
     }
+	
     
     .acc-hist {
         margin-top: -2px;
@@ -409,9 +417,30 @@
        
         
     }
+	
+	@media (max-width: 450px) {
+
+		.image-signup.text-center {
+			padding-right: 48px;
+			  
+		}
+		input[type=text] 
+		{
+       font-size: 12px;
+        }
+	 .label-pro {
+    padding: 3px;
+    font-family: emoji;
+    font-weight: 600;
+    color: #e94d4d;
+	 }
+	 
+   }
+	
+	
 	.input-flex {
     flex-direction: column;
-}
+    }
     
     .elem1 {
         margin-top: 0px;
