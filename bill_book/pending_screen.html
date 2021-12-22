@@ -37,7 +37,7 @@
 						
 		</div>
     <section class="section-home_screen border-secondary">
-					<div id="mySidenav" class="sidenav">
+					<div id="mySidenav" class="sidenav" data-toggle="mySidenav">
 							<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 							<a href="#"><button class=" button-sidenav btn btn-primary text-dark " type="submit">Profile</button></a>
 							<a href="file:///C:/Users/ASUS/Desktop/Folders/mca2019%20c%20programing/sem6_internship/bill_book/payment.html"><button class=" button-sidenav btn btn-primary text-dark " type="submit">Payment Info</button></a>
@@ -107,7 +107,7 @@
 					
                         <div class="elements-pending-scree1 ">
                             <button class=" button-update btn text-dark ml-4 " type="submit ">Update</button>
-                            <button class=" button-update btn text-dark ml-4 " type="submit ">History</button>
+                            <button onclick="myHistory()" class=" button-update btn text-dark ml-4 " type="submit ">History</button>
                             <button class=" button-remind btn text-danger ml-4 " type="submit "  data-toggle="modal" data-target="#myModal">Remind Payment</button>
                         </div>
 						
@@ -242,6 +242,10 @@ function closeNav() {
 
 function myAccounts() {
   location.replace("file:///C:/Users/ASUS/Desktop/Folders/mca2019%20c%20programing/sem6_internship/bill_book/account_screen.html")
+}
+
+function myHistory() {
+  location.replace("file:///C:/Users/ASUS/Desktop/Folders/mca2019%20c%20programing/sem6_internship/bill_book/history.html")
 }
 </script>
 	

@@ -434,8 +434,43 @@
     font-weight: 600;
     color: #e94d4d;
 	 }
+	 .home_style{
+	 background-color: #f6f6f5;
+	 box-shadow: 0px 0px 15px 0px #888888;
+	 width: 86%;
+    float: center;
+    padding-right: 2px;
+    left: 27px;
+    }
+	.button-login {
+    background-color: red;
+    text-align: center;
+    width: 90%;
+    border: none;
+    outline: none;
+    font-size: 21px;
+    border-radius: 13px;
+	}
+	.elements-home-scree {
+	padding-right: 25px;
+	}
+	.elem1{
+	margin-top: 0px;
+    padding-right: 23px;
+    padding-left: 23px;
+	}
+	.division-screen{
+	width: 85%;
+    margin-left: 37px;
+	}
+	.button-remind{
+	font-size: 11px;
+	}
+	.button-update{
+	font-size: 11px;
+	}
 	 
-   }
+  }
 	
 	
 	.input-flex {
