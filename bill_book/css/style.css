@@ -399,7 +399,7 @@
     
     .left-alig-details {
         margin-right: 20px;
-		width:30%;
+		width:41%;
     background-color: #c5c2c2;
     border-radius: 22px;
 	border-bottom: 1px solid grey;
@@ -468,8 +468,23 @@
 	}
 	.button-update{
 	font-size: 11px;
+	
 	}
-	 
+	.firstLabel1{
+		font-size: 14px;
+	}
+	.elements-acc-scree1{
+		flex-direction:column;
+		position:absolute;
+	}
+	.left-alig-details{
+		width:85%;
+		
+	}
+	.amt{
+		font-size:11px;
+		color:#767070;
+	}
   }
 	
 	
@@ -853,6 +868,6 @@
     font-weight: 500;
 }
 .amt{
-    color: black;
+    color: #767070;
     font-weight: 300;
 }
