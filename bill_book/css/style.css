@@ -485,6 +485,23 @@
 		font-size:11px;
 		color:#767070;
 	}
+	.his-header{
+		width: 157%;
+		
+	}
+	.history{
+		width:157%;
+	}
+	.text_portion{
+		left: 226px;
+	}
+	.his-cont{
+		width: 157%;
+	}
+	.his-sidenav{
+		width:100%;
+		position:fixed;
+	}
   }
 	
 	
