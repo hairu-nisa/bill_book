@@ -499,8 +499,8 @@
 		width: 157%;
 	}
 	.his-sidenav{
-		width:100%;
-		position:fixed;
+		
+		position:fixed !important;
 	}
   }
 	
