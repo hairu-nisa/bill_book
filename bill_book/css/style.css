@@ -158,6 +158,7 @@
         font-family: emoji;
     font-weight: 600;
 	color:#e94d4d;
+	
     }
     
     .form-control {
@@ -433,6 +434,7 @@
     font-family: emoji;
     font-weight: 600;
     color: #e94d4d;
+	font-size:12px;
 	 }
 	 .home_style{
 	 background-color: #f6f6f5;
@@ -486,7 +488,7 @@
 		color:#767070;
 	}
 	.his-header{
-		width: 157%;
+		width: 174%;
 		
 	}
 	.history{
@@ -501,6 +503,33 @@
 	.his-sidenav{
 		
 		position:fixed !important;
+	}
+	.footer-media ul{
+		width: 89%;
+	}
+	.title-form h4{
+		font-size:15px;
+	}
+	.footer-media-general ul li a span{
+		font-size: 12px;
+		margin-right: 38px;
+	}
+	.footer-media-general ul li .img-menu img {
+    width: 27px;
+
+	}
+	.footer_main {
+		border-radius: 3px;
+	}
+	.footer-media-general ul{
+		width: 23%;
+		
+	}
+	.footer-media-general ul li .img-menu {
+		margin-left: -34px;
+	}
+	.footer-media-general{
+		float:left;
 	}
   }
 	
