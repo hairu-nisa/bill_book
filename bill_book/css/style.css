@@ -316,10 +316,11 @@
     
     .firstLabel {
 		float:left;
-        margin-right: 454px;
+        
     }
     
     .secondLabel {
+		text-align:center;
         margin-right: 218px;
     }
 	.thirdLabel{
@@ -379,7 +380,7 @@
         position: absolute;
         z-index: 1;
         top: -20px;
-        left: 484px;
+        left: 415px;
         text-align: center;
         font-size: 18px;
     }
@@ -495,11 +496,13 @@
 		width:157%;
 	}
 	.text_portion{
-		left: 226px;
+		left: 199px;
 	}
 	.his-cont{
-		width: 157%;
-	}
+		width: 157%;	
+       padding-top: 104px;
+      }
+	
 	.his-sidenav{
 		
 		position:fixed !important;
@@ -530,6 +533,16 @@
 	}
 	.footer-media-general{
 		float:left;
+	}
+	.firstLabel {
+    float: left;
+	
+	}
+	.secondLabel {
+    margin-right: 25px;
+    }
+	.content-ht{
+		width: 115%;
 	}
   }
 	
