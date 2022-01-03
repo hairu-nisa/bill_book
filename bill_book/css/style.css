@@ -421,11 +421,21 @@
     }
 	
 	@media (max-width: 450px) {
+		
+		.section-login .container h1 {
+			padding-top: 96px;
+		}
 
 		.image-signup.text-center {
-			padding-right: 48px;
+			padding-right: 41px;
 			  
 		}
+		.image-signup img {
+         width: 152px;
+		}
+		 .section-signup{
+			 margin-top: -82px;
+		 }
 		input[type=text] 
 		{
        font-size: 12px;
@@ -448,10 +458,10 @@
 	.button-login {
     background-color: red;
     text-align: center;
-    width: 90%;
+    width: 100%;
     border: none;
     outline: none;
-    font-size: 21px;
+    font-size: 12px;
     border-radius: 13px;
 	}
 	.elements-home-scree {
