@@ -160,7 +160,10 @@
 	color:#e94d4d;
 	
     }
-    
+	.table-class{
+		text-align:center;
+		
+    }
     .form-control {
         border: 1px solid #c674a0
     }
@@ -364,7 +367,7 @@
     
     .line-div {
         position: relative;
-        margin-top: -40px;
+       
     }
     
     .line {
@@ -380,7 +383,7 @@
         position: absolute;
         z-index: 1;
         top: -20px;
-        left: 415px;
+        left: 483px;
         text-align: center;
         font-size: 18px;
     }
@@ -506,7 +509,7 @@
 		width:157%;
 	}
 	.text_portion{
-		left: 199px;
+		left: 246px;
 	}
 	.his-cont{
 		width: 157%;	
