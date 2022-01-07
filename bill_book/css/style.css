@@ -439,6 +439,15 @@
 		 .section-signup{
 			 margin-top: -82px;
 		 }
+		 .image-home_screen img{
+			 width:132%;
+		 }
+		 .file-image{
+			 background-size: 24%;
+		 }
+		 .btn1 {
+			 padding: 4px 27px;
+		 }
 		input[type=text] 
 		{
        font-size: 12px;
