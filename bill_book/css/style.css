@@ -110,7 +110,8 @@
         opacity: 0;
     }
     
-    .file-image {
+    .file-
+	{
         background-image: url(../images/camera.png);
         background-repeat: no-repeat;
         background-position: 6% 47%;
@@ -419,6 +420,7 @@
     
     .image-signup img {
         width: 162px;
+		margin-top: -64px;
        
         
     }
@@ -431,6 +433,7 @@
 
 		.image-signup.text-center {
 			padding-right: 41px;
+			margin-top: 59px;
 			  
 		}
 		.image-signup img {
